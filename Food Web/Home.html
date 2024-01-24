@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="Home.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Healthy%20Meals.html">Healthy Meals</a></li>
+                    <li><a href="Contact%20Us.html">CONTACT US</a></li>
+                    <li><a href="Profile.html">PROFILE</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>Ultimate One Stop Platform For Tiffin Services</h1>
+    <br>
+    <p>At "name" we provide you with the best tiffin services where you can modify your meals,subscribe for them and enjoy your everyday healthy luncheon.<br>All the tiffin services near your area will be visible and you will find vide options to select from based on the best reviews and trial meals<br>So let's get started for a homely healthy meal! </p>
+    <br>
+    <a href="Profile.html" class="hero-btn">Log In/Sign Up</a>
+</div>
+</section>
+
+
+<!----Healthy Meals----->
+<section class="HealthyMeals">
+    <h1>Recommended Meal Menu's</h1>
+    <p>Healthy eating refers to eating a variety of food with the essentials nutients required for you to maintain your health,feel good and have sufficient energy.<br>These nutrients include protein, carbohydrates, fat, water, vitamins, and minerals.</p>
+    
+    <div class="row">
+        <div class="HealtthyMeal-col">
+            <h3>Breakfast</h3>
+            <p>(1)Opt for whole grains instead of refined flour[fiber, protein and nutrients]<br>
+            (2)Choose fruits or veggies with lot of colours(Try to gulp up the rainbow!)<br>
+            (3)Stay away from excessive sugar and sodium </p>
+        </div>
+        <div class="HealtthyMeal-col">
+            <h3>Lunch</h3>
+            <p>(1)Opt for whole grains instead of refined flour[fiber, protein and nutrients]<br>
+            (2)Choose fruits or veggies with lot of colours(Try to gulp up the rainbow!)<br>
+            (3)Stay away from excessive sugar and sodium </p>
+        </div>
+        <div class="HealtthyMeal-col">
+            <h3>Dinner</h3>
+            <p>(1)Opt for whole grains instead of refined flour[fiber, protein and nutrients]<br>
+            (2)Choose fruits or veggies with lot of colours(Try to gulp up the rainbow!)<br>
+            (3)Stay away from excessive sugar and sodium </p>
+        </div>
+    </div>
+</section>
+
+<!---Reviews---->
+<section class="Reviews">
+   <h1>What our Clients Say</h1>
+   <p>Some honest reviews of our clients</p>
+   <div class="Reviews-col">
+       <img src="images/user1.jpg">
+       <div>
+           <p>Amazing Service provided with some high quality food.</p>
+           <h3>Christine Berkley</h3>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star-o"></i>
+       </div>
+   </div>
+   <div class="Reviews-col">
+       <img src="images/user2.jpg">
+       <div>
+           <p>Just a word for them.They are just fabulous.Some great meal recommendations.Managable Subscriptions and hassle free payments. </p>
+           <h3>Peter Anderson</h3>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star-half-o"></i>
+
+       </div>
+   </div>
+    
+</section>
+
+
+<!---Contact Us--->
+<section class="cta">
+    <h1>For Queries or Enquiry kindly Contact Us</h1>
+    <a href="Contact%20Us.html" class="hero-btn">Contact Us</a>
+</section>
+
+
+<!---Footer--->
+<section class="Footer">
+    <h4>About Us</h4>
+    <p>Joining the dots by providing the best Tiffin Services across the users location for a healthier me.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <br>
+    <p>Made with <i class="fa fa-heart-o"></i> by Vaidehi</p>
+</section>
+
+
+<!----Javascript for toggle menu----->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    
+</script>
+
+
+
+</body>
+</html>
